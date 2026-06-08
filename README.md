@@ -68,8 +68,8 @@ The pipeline generates on-demand lecture videos fully automatically from slide d
 ├── README.md
 ├── LICENSE                    # MIT (code) — see below for prompts
 ├── notebook/
-│   └── 授業動画自動生成_geminiTTS_animation_話者切り替え4パターン_KaTex_PDF対応.ipynb
-│       # Stage 3 pipeline: TTS synthesis → slide rendering → video assembly
+│   └── tts_lecture_video_generator.ipynb
+│       # Stage 3 pipeline: PDF + Marp MD → TTS synthesis → MP4 video
 │       # Runs on Google Colab; requires a Google AI Studio API key
 └── prompts/
     ├── en/                    # ★ Canonical versions (English)
@@ -98,7 +98,7 @@ Upload your Marp `.md` slide file and source material together with the chosen p
 4. The model will output the Marp file with narration scripts added as `<!-- 口述原稿: ... -->` comments per slide.
 
 ### Notebook (Stage 3)
-The notebook `notebook/授業動画...ipynb` handles the full TTS + video pipeline and runs on **Google Colab**:
+The notebook `notebook/tts_lecture_video_generator.ipynb` handles the full TTS + video pipeline and runs on **Google Colab**:
 
 1. Mount Google Drive and set the working directory to your lecture folder.
 2. Set your **Google AI Studio API key** (`api_key`).
