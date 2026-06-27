@@ -4,7 +4,7 @@ This repository provides the supplementary materials — generation notebook and
 
 | # | Paper | Venue | Status |
 |---|-------|-------|--------|
-| 1 | *A Semi-Automated System for Generating Dialogue-Based TTS Lessons Using Large Language Models and Its Educational Effectiveness* | IPSJ Journal | Under Review |
+| 1 | *A Semi-Automated System for Generating Dialogue-Based TTS Lessons Using Large Language Models: An Exploratory Study of Educational Potential* | IEEE Access | Under Review |
 | 2 | *Evaluating the Effects of Dialogue Format Variation on Learner Experience in LLM-Generated TTS Lessons: A Within-Subject Study* | IEEE Transactions on Learning Technologies | Under Review |
 
 ---
@@ -12,7 +12,7 @@ This repository provides the supplementary materials — generation notebook and
 ## ⚠ Language Note
 
 > **The English-language prompts in `prompts/en/` are the canonical versions** (adopted as the formal specification for publication).  
-> **The Japanese-language prompts in `prompts/ja/` are the as-used versions** — these are the actual prompts used during the study (N=222, high-school students, November 2025). The system was operated in Japanese to match the target audience and instructors.
+> **The Japanese-language prompts in `prompts/ja/` are the as-used versions** — these are the actual prompts used during the study (N=245, first-year high school students, May–July 2025). The system was operated in Japanese to match the target audience and instructors.
 
 ---
 
@@ -119,7 +119,7 @@ The notebook `notebook/tts_lecture_video_generator.ipynb` handles the full TTS +
 
 If you use these materials, please cite the relevant paper(s):
 
-> **(Paper 1 — IPSJ)** Kumoi G., Watanabe F., Suko T., Ishida T., Kuma Y., Kobayashi M., Hirasawa S. (under review). *A Semi-Automated System for Generating Dialogue-Based TTS Lessons Using Large Language Models and Its Educational Effectiveness.* IPSJ Journal.
+> **(Paper 1 — IEEE Access)** Kumoi G., Watanabe F., Suko T., Ishida T., Kuma Y., Kobayashi M., Hirasawa S. (under review). *A Semi-Automated System for Generating Dialogue-Based TTS Lessons Using Large Language Models: An Exploratory Study of Educational Potential.* IEEE Access.
 
 > **(Paper 2 — IEEE TLT)** (under review). *Evaluating the Effects of Dialogue Format Variation on Learner Experience in LLM-Generated TTS Lessons.* IEEE Transactions on Learning Technologies.
 
@@ -129,3 +129,4 @@ If you use these materials, please cite the relevant paper(s):
 
 Gendo Kumoi · Nagaoka University of Technology  
 kumoi@vos.nagaokaut.ac.jp
+
