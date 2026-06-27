@@ -5,7 +5,7 @@ This repository provides the supplementary materials — generation notebook and
 | # | Paper | Venue | Status |
 |---|-------|-------|--------|
 | 1 | *A Semi-Automated System for Generating Dialogue-Based TTS Lessons Using Large Language Models: An Exploratory Study of Educational Potential* | IEEE Access | Under Review |
-| 2 | *Evaluating the Effects of Dialogue Format Variation on Learner Experience in LLM-Generated TTS Lessons: A Within-Subject Study* | IEEE Transactions on Learning Technologies | Under Review |
+| 2 | (title TBD) | TBD | In preparation |
 
 ---
 
@@ -121,7 +121,7 @@ If you use these materials, please cite the relevant paper(s):
 
 > **(Paper 1 — IEEE Access)** Kumoi G., Watanabe F., Suko T., Ishida T., Kuma Y., Kobayashi M., Hirasawa S. (under review). *A Semi-Automated System for Generating Dialogue-Based TTS Lessons Using Large Language Models: An Exploratory Study of Educational Potential.* IEEE Access.
 
-> **(Paper 2 — IEEE TLT)** (under review). *Evaluating the Effects of Dialogue Format Variation on Learner Experience in LLM-Generated TTS Lessons.* IEEE Transactions on Learning Technologies.
+> **(Paper 2)** (in preparation). Title TBD.
 
 ---
 
