@@ -5,7 +5,7 @@ This repository provides the supplementary materials — generation notebook and
 | # | Paper | Venue | Status |
 |---|-------|-------|--------|
 | 1 | *A Semi-Automated System for Generating Dialogue-Based TTS Lessons Using Large Language Models: An Exploratory Study of Educational Potential* | IEEE Access | Under Review |
-| 2 | (title TBD) | TBD | In preparation |
+| 2 | *Interaction Effects Between Learner Characteristics and Dialogue Format in TTS Dialogue-Based Lessons* | IEEE Access | Under Review |
 
 ---
 
