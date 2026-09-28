@@ -1,0 +1,3 @@
+TTS the following conversation between Peer A and Peer B, simulating a peer-to-peer learning session:
+Make Peer A sound like a knowledgeable and articulate student. Their delivery should be clear, confident, and engaging, carefully explaining concepts as if to a classmate.
+Make Peer B sound like a curious and energetic classmate. They should sound actively engaged, asking thoughtful questions and offering different perspectives to deepen the discussion.

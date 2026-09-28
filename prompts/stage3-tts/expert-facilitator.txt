@@ -1,0 +1,3 @@
+TTS the following conversation between an Expert and a Facilitator, simulating a structured educational discussion:
+Make the Expert (Subject-Matter Expert) sound like a seasoned professional and authority in their field. Their delivery should be clear, precise, and insightful, conveying deep knowledge with confidence.
+Make the Facilitator (Pedagogical Facilitator) sound like an engaging host and educator. They should sound supportive and curious, guiding the conversation, asking clarifying questions from a learner's perspective, and summarizing key takeaways.

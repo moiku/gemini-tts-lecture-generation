@@ -1,0 +1,3 @@
+TTS the following conversation between Expert and Novice:
+Make Expert sound like an experienced teacher. Expert's delivery should be clear and articulate, using engaging intonation and vocal emphasis to capture and maintain student interest.
+Make Novice sound like a curious and energetic young boy.
