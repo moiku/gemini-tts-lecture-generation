@@ -5,7 +5,7 @@ This repository provides the supplementary materials — generation notebooks an
 | # | Paper | Venue | Status |
 |---|-------|-------|--------|
 | 1 | *A Semi-Automated System for Generating Dialogue-Based TTS Lessons Using Large Language Models: An Exploratory Study of Educational Potential* | IEEE Access | Under review (revised manuscript submitted 2026-09-28) |
-| 2 | *Interaction Effects Between Learner Characteristics and Dialogue Format in TTS Dialogue-Based Lessons* | IEEE Access | Under review |
+| 2 | *Interaction Effects Between Learner Characteristics and Dialogue Format in LLM- and TTS-Generated Dialogue-Based Lessons* | Education Sciences (MDPI) | Manuscript education-4627942; returned from editorial precheck, revised manuscript in preparation for resubmission |
 
 ---
 
@@ -59,12 +59,21 @@ The pipeline generates on-demand lecture videos from source material, through th
 
 | Pattern | Label | Voices | Description |
 |---------|-------|--------|-------------|
-| 1 | Single (Teacher Solo / **TS**) | Enceladus | Single expert narrator; structured monologue optimised for TTS |
+| 1 | Single speaker (**SOLO**, Teacher Solo) | Enceladus | Single expert narrator; structured monologue optimised for TTS |
 | 2 | Expert × Novice (**EN**) | Enceladus + Autonoe | Cognitive apprenticeship dialogue; Expert explains, Novice asks and paraphrases |
-| 3 | Peer × Peer (**SS**) | Enceladus + Autonoe | Reciprocal teaching between two learner peers; role alternation every 3–5 min |
-| 4 | Expert × Facilitator (**TT**) | Enceladus + Autonoe | Subject-matter expert + pedagogical facilitator; periodic recaps every 5–10 min |
+| 3 | Peer × Peer (**PP**) | Enceladus + Autonoe | Reciprocal teaching between two learner peers; role alternation every 3–5 min |
+| 4 | Expert × Facilitator (**EF**) | Enceladus + Autonoe | Subject-matter expert + pedagogical facilitator; periodic recaps every 5–10 min |
 
-Patterns 1 and 2 are the two conditions evaluated in Paper 1. Patterns 3 and 4 are implemented in the system but were not used in the reported lessons.
+Paper 1 evaluates patterns 1 and 2 (single-speaker TTS and dialogue TTS, alongside a recorded instructor voice). Paper 2 compares patterns 2–4. All four patterns are implemented in the system.
+
+**Abbreviations differ between the papers.** Paper 2 names its three dialogue formats by speaker roles — *Teacher×Student* (**TS**), *Student×Student* (**SS**) and *Teacher×Teacher* (**TT**, an expert and a facilitator). To avoid a clash with "Teacher Solo", this repository uses the labels above. The mapping is:
+
+| This repository | Paper 2 |
+|-----------------|---------|
+| Pattern 2 — EN (Expert × Novice) | **TS** — teacher and student |
+| Pattern 3 — PP (Peer × Peer) | **SS** — student and student |
+| Pattern 4 — EF (Expert × Facilitator) | **TT** — expert and facilitator |
+| Pattern 1 — SOLO (single speaker) | not used in Paper 2 |
 
 ---
 
@@ -88,7 +97,7 @@ Patterns 1 and 2 are the two conditions evaluated in Paper 1. Patterns 3 and 4 a
     │   ├── marp-slide-generation.en.md   # ★ canonical (English)
     │   └── marp-slide-generation.ja.md   # as-used (Japanese)
     ├── en/                    # Stage 2 — narration scripts · ★ canonical (English)
-    │   ├── expert.md                  # Pattern 1 — Single speaker (Teacher Solo)
+    │   ├── expert.md                  # Pattern 1 — Single speaker (SOLO)
     │   ├── expert-novice.md           # Pattern 2 — Expert × Novice
     │   ├── peer-peer.md               # Pattern 3 — Peer × Peer
     │   └── expert-facilitator.md      # Pattern 4 — Expert × Facilitator
@@ -160,7 +169,7 @@ If you use these materials, please cite the relevant paper(s):
 
 > **(Paper 1 — IEEE Access)** Kumoi G., Watanabe F., Suko T., Ishida T., Kuma Y., Kobayashi M., Hirasawa S. (under review). *A Semi-Automated System for Generating Dialogue-Based TTS Lessons Using Large Language Models: An Exploratory Study of Educational Potential.* IEEE Access.
 
-> **(Paper 2 — IEEE Access)** (under review). *Interaction Effects Between Learner Characteristics and Dialogue Format in TTS Dialogue-Based Lessons.* IEEE Access.
+> **(Paper 2 — Education Sciences)** Watanabe F., Kumoi G., Suko T., Ishida T., Kuma Y., Kobayashi M., Hirasawa S. (in preparation for resubmission). *Interaction Effects Between Learner Characteristics and Dialogue Format in LLM- and TTS-Generated Dialogue-Based Lessons.* Education Sciences (MDPI).
 
 ---
 
